@@ -538,7 +538,6 @@ func setupEvilGlobals(c *cli.Context, v store.Store, r remote.Remote) {
 }
 
 type authorizer struct {
-	username string
 	password string
 }
 
